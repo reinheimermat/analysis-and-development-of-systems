@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18/08/2017, 10:30:42
+    Author     : ltonietto
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:100|Roboto+Mono:100|Roboto:100');
+
+body {
+   font-family: Roboto;
+   background-color: LightSlateGray;
+   padding: 3px;
+}
+
+#frameCalculadora {
+   border-radius: 3px;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   box-shadow: 2px 2px 2px #999;
+   -webkit-box-shadow: 2px 2px 2px #999;
+   -moz-box-shadow: 20px 20px 10px #999;
+   float: left;
+   border: 0.5pt solid black;
+   border-left: none;
+   margin: 3px;
+   padding: 0;
+} 
+
+#display {
+   padding-top: 20px;
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-bottom: 5px;
+   height: 50px;
+   max-width: 230px; 
+   text-align: right;
+   font-size: 2.8em;
+   font-weight: 100;
+   background-color: rgba(100, 100, 100, 0.7);	
+   color: white;
+   display: block;
+   overflow-x: auto;
+   border-top-left-radius: 3px !important;
+   -moz-border-top-left-radius: 3px !important;
+   -webkit-border-top-left-radius: 3px !important;
+   border-left: 0.5pt solid black;
+}
+
+#frameCalculadora button {
+   font-family: Roboto;
+   min-width: 60px;
+   min-height: 45px;
+   height: 45px;
+   width: 60px;
+   text-align: center;
+   border-top: 0.5pt solid black;
+   border-left: 0.5pt solid black;
+   border-bottom: none;
+   border-right: none;
+   font-size: 1.1em;
+   /*border-collapse: collapse;*/
+   background-color: #E5E5E5;
+   color: black;
+   margin: 0;
+   float: left;
+   cursor: pointer;
+}
+
+#d0 {
+   width: 120px !important;
+   border-bottom-left-radius: 3px !important;
+   -moz-border-bottom-left-radius: 3px !important;
+   -webkit-border-bottom-left-radius: 3px !important;
+   text-align: left !important;
+   text-indent: 20px;
+}
+
+#Eq {
+   border-bottom-right-radius: 3px !important;
+   -moz-border-bottom-right-radius: 3px !important;
+   -webkit-border-bottom-right-radius: 3px !important;
+}
+
+#buttons { 
+   background-color: rgba(1,1,1,0);
+   border: none;
+   cursor: pointer;
+}
+
+div {
+   padding: 0;
+   margin: 0;
+}
+
+#frameCalculadora button:hover {
+   color: black;
+   background-color: #b0b0b0;
+}
+
+.primeiraLinha {
+   background-color: #c6c6c6 !important;
+}
+.primeiraLinha:hover {
+   color: black;
+   background-color: #a6a6a6 !important;
+}
+
+
+.ultimaCol {
+   background-color: #FF7F00 !important;
+}
+
+.ultimaCol:hover {
+   color: wheat;
+   background-color: #cF4F00 !important;
+}
